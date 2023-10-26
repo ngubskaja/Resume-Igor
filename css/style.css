@@ -116,6 +116,13 @@ body {
   
   /* My work experience section */
   
+  .work{
+    margin-top: 140px;
+  }
+  .list-work{
+    list-style-type: disc;
+    
+  }
   .my-work-experience-section {
     margin-bottom: 55px;
   }
@@ -154,6 +161,10 @@ body {
   .my-work-experience-company-block {
     margin: 0 15px 0 0;
   }
+ .last-list{
+  margin-top: 10px;
+  padding-left: 50px;
+ }
   
   /* Education section */
   
@@ -187,13 +198,14 @@ body {
   }
   
   .sidebar-section {
-    background-color: #203a5e;
-    width: 1000px;
+    /* background-color: #203a5e; */
+    width: 760px;
     margin-left: 50px;
     margin-top: 20px;
     padding: 35px 0;
     border-top-left-radius: 200px;
     border-top-right-radius: 200px;
+    background: -webkit-linear-gradient(22deg,#181414 0%, #7e8b7e 80%);
     /* box-shadow: 18px 17px 19px 5px rgba(0,0,0,0.55);
   -webkit-box-shadow: 18px 17px 19px 5px rgba(0,0,0,0.55);
   -moz-box-shadow: 18px 17px 19px 5px rgba(0,0,0,0.55);
